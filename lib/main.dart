@@ -45,7 +45,7 @@ class ProfileScreen extends StatelessWidget {
                 color: Color(0xFF13171D),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black45,
+                    color: Colors.black26,
                     blurRadius: 15,
                     spreadRadius: 5,
                     offset: Offset(0, 8),
@@ -55,31 +55,7 @@ class ProfileScreen extends StatelessWidget {
             ),
           ),
 
-          // // 2. Background Kurva Lingkaran di Paling Bawah Kiri
-          // Positioned(
-          //   left: -40 * scale,
-          //   bottom: -30 * scale,
-          //   child: Container(
-          //     width: 190 * scale,
-          //     height: 190 * scale,
-          //     decoration: BoxDecoration(
-          //       color: const Color(0xFF2C384A).withAlpha(150),
-          //       shape: BoxShape.circle,
-          //     ),
-          //   ),
-          // ),
-          // Positioned(
-          //   left: -70 * scale,
-          //   bottom: -50 * scale,
-          //   child: Container(
-          //     width: 240 * scale,
-          //     height: 240 * scale,
-          //     decoration: BoxDecoration(
-          //       color: const Color(0xFF1E2736).withAlpha(100),
-          //       shape: BoxShape.circle,
-          //     ),
-          //   ),
-          // ),
+      
 
           // 3. Tombol Top Bar (Kembali & Pengaturan)
           SafeArea(
@@ -129,7 +105,7 @@ class ProfileScreen extends StatelessWidget {
                         color: Color(0xFF13171D),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black38,
+                            color: Colors.black45,
                             blurRadius: 12,
                             offset: Offset(0, 6),
                           ),
@@ -138,7 +114,7 @@ class ProfileScreen extends StatelessWidget {
                       padding: EdgeInsets.all(12 * scale),
                       child: const CircleAvatar(
                         backgroundImage: NetworkImage(
-                          'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600',
+                          'https://tse2.mm.bing.net/th/id/OIP.AyLnd9jimcjDILCy8j4IPgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
                         ),
                       ),
                     ),
@@ -147,7 +123,7 @@ class ProfileScreen extends StatelessWidget {
 
                   // Nama Mahasiswa
                   Text(
-                    'Wisnu Saputra',
+                    'Amrun Nizhom',
                     style: TextStyle(
                       fontSize: 24 * scale,
                       fontWeight: FontWeight.bold,
@@ -198,9 +174,9 @@ class ProfileScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      _buildStatColumn('2490360050', 'NPM', scale),
+                      _buildStatColumn('B01220058', 'NPM', scale),
                       _buildStatColumn('TRM', 'Jurusan', scale),
-                      _buildStatColumn('5', 'Semester', scale),
+                      _buildStatColumn('6', 'Semester', scale),
                     ],
                   ),
                   SizedBox(height: 32 * scale),
